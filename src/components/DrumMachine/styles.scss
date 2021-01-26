@@ -1,0 +1,46 @@
+.drumMachine {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+
+  .buttonWrap {
+    display: flex;
+    max-height: 100%;
+    max-width: 35rem;
+    flex-wrap: wrap;
+  }
+
+  .controlWrap {
+    text-align: center;
+    display: flex;
+    width: 50rem;
+    justify-content: center;
+
+    .item {
+      width: 100%;
+      margin: 10px auto;
+      font-size: 30px;
+    }
+
+    .infoBox {
+      display: flex;
+      height: 5rem;
+      width: 30rem;
+      background-color: darkgray;
+      align-items: center;
+      justify-content: center;
+
+      .info {
+        text-transform: uppercase;
+      }
+    }
+
+    .bankTitle {
+      text-transform: uppercase;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.homepage {
+  height: 100%;
+  position: relative;
+  background-color: gray;
+
+  .wrap {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 35rem;
+    width: 75rem;
+    border: 5px solid orange;
+    background-color: lightgray;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    .title {
+      position: absolute;
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 900;
+      text-align: right;
+
+      span {
+        font-style: normal;
+      }
+    }
+  }
+}
